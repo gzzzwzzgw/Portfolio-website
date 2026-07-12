@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Grayson Winchester, contact.html, 6/21/2026 -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Grayson Winchester | Get in Touch</title>
+    <meta name="description" content="Contact Grayson Winchester with questions, work opportunities, or collaboration ideas using the contact form.">
+    <title>Grayson Winchester | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+   <nav>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <ul id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Question</option>
+                        <option value="work">Work Opportunity</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Sign me up for updates</label>
+                </p>
+                <p>
+                    <input type="submit" value="Send Message">
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2026. All Rights Reserved.</p>
+        <p><a href="gwinche0028@student.gwinnetttech.edu">gwinche0028@student.gwinnetttech.edu</a></p>
+        <p>
+            <a href="https://www.linkedin.com/in/grayson-w-9117a8295/">
+                <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
