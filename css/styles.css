@@ -248,6 +248,18 @@ audio {
     transition: transform 0.3s;
 }
 
+
+dt { color: #e9c46a; font-weight: bold; font-size: 1.15em; margin-top: 1em; }
+dd { margin: 0.3em 0 1em 0; color: #cdd9e5; line-height: 1.7; }
+.faq-links { background-color: #1b263b; padding: 4%; border-radius: 12px; list-style: none; }
+.faq-links a { color: #e9c46a; text-decoration: none; }
+.back-to-top { display: inline-block; color: #a9c0d6; font-size: 0.9em; text-decoration: none; }
+
+
+.sitemap-list { list-style: none; }
+.sitemap-list li { background-color: #1b263b; margin-bottom: 0.8em; padding: 3%; border-radius: 8px; }
+.sitemap-list a { color: #e9c46a; text-decoration: none; font-weight: bold; }
+
 /* ===== TABLET VIEWPORT (650px and up) ===== */
 @media screen and (min-width: 650px) {
 
